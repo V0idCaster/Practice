@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "compile and run",
+            "type": "shell",
+            "command": "g++ -std=c++17 -o ${fileBasenameNoExtension}.exe ${fileBasename} ; Get-Content input.txt | .\\${fileBasenameNoExtension}.exe > output.txt",
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
