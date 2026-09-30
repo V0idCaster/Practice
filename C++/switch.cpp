@@ -17,7 +17,7 @@ int main(){
         cout <<"Wednesday";
         break;
         case 4:
-        cout <<"Thrusday";
+        cout <<"Thursday";
         break;
         case 5:
         cout <<"Friday";
@@ -31,6 +31,6 @@ int main(){
         default :
         cout << "Invalid";
     }
-    cout<<"hai bhai";
+    cout <<" hai bhai";
     return 0;
 }
