@@ -4,10 +4,10 @@ using namespace std;
 int main(){
     int n;
     cout<<"Enter the size of an Array: ";
-    scanf("%d", &n);
+    cin>>n;
     int arr[n];
     for(int i = 0; i <= n-1; i++){
-        scanf("%d", &arr[i]);
+        cin>>arr[i];
     }
     
     int largest = arr[0];
